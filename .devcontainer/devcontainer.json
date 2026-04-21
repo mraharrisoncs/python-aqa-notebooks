@@ -9,5 +9,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip install ipywidgets && pip install -e ."
+  "postCreateCommand": "pip install ipykernel ipywidgets && pip install -e ."
 }
