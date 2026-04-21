@@ -15,6 +15,6 @@
       }
     }
   },
-  "postCreateCommand": "pip install ipywidgets",
+  "postCreateCommand": "pip install ipykernel ipywidgets",
   "forwardPorts": [8888]
 }
