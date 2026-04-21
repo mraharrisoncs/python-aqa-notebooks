@@ -6,8 +6,12 @@
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python"
-      ]
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/conda/bin/python",
+        "jupyter.defaultKernel": "python3"
+      }
     }
   },
-  "postStartCommand": "pip install ipykernel ipywidgets && pip install -e ."
+  "postCreateCommand": "pip install ipywidgets ipykernel && pip install -e ."
 }

@@ -2,5 +2,6 @@
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
     "python.defaultInterpreterPath": "/opt/conda/bin/python",
-    "jupyter.kernelSpecFindQuorum": 1
+    "jupyter.kernelSpecFindQuorum": 1,
+    "jupyter.defaultKernel": "python3"
 }
