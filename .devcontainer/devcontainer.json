@@ -1,0 +1,20 @@
+{
+  "name": "AQA Python Notebooks",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "notebook.cellToolbarLocation": {
+          "default": "right"
+        }
+      }
+    }
+  },
+  "postCreateCommand": "pip install ipywidgets",
+  "forwardPorts": [8888]
+}
